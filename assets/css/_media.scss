@@ -1,0 +1,337 @@
+@media screen and(min-width: 1025px) {
+  body {
+    .mobile_menu {
+      display: none !important;
+    }
+  }
+}
+
+
+@media screen and(min-width: 768px) and (max-width: 1024px) {
+  body {
+    header {
+      .nav_sup,
+      .menu_list,
+      .all_categories,
+      .desktop_logo {
+        display: none !important;
+      }
+      .hat_logo img {
+        width: 150px !important;
+      }
+      .search {
+        width: 340px !important;
+      }
+      .nav_slider {
+        width: 100% !important;
+        height: 300px !important;
+      }
+      
+    .mobile_menu {
+      display: flex !important;
+    }
+    }
+    section.confidence {
+      padding: 40px 30px !important;
+    }
+    section.confidence {
+      padding: 40px 90px;
+      background-color: #f8f8f8;
+      height: auto;
+      .confidence_item {
+        @include d-f();
+        // flex-wrap: wrap !important;
+      }
+    }
+    footer {
+      .footer_sup {
+        flex-direction: column;
+        .footer_sup_right {
+          margin-top: 20px;
+          .line {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and(min-width: 568px) and (max-width: 767px) {
+  body {
+    header {
+      .nav_sup,
+      .menu_list,
+      .all_categories,
+      .hat,
+      .search_box,
+      .desktop_logo {
+        display: none !important;
+      }
+      .hat_logo img {
+        width: 150px !important;
+      }
+      .search {
+        width: 340px !important;
+      }
+      .nav_slider {
+        width: 100% !important;
+        height: 300px !important;
+      }
+    }
+    section.confidence {
+      padding: 40px 30px !important;
+    }
+    .mobile_menu_list {
+      width: 70% !important;
+    }
+    footer {
+      .footer_sup {
+        flex-direction: column;
+        .footer_sup_right {
+          margin-top: 20px;
+          .line {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 567px) {
+  body {
+    header {
+      .nav_sup,
+      .menu_list,
+      .all_categories,
+      .hat,
+      .search_box,
+      .desktop_logo {
+        display: none !important;
+      }
+      .hat_logo img {
+        width: 150px !important;
+      }
+      .search {
+        width: 340px !important;
+      }
+      .nav_slider {
+        width: 100% !important;
+        height: 300px !important;
+      }
+    }
+    .corusel_title {
+      strong {
+        font-size: 18px !important;
+      }
+     .all {
+      display: none !important;
+    } 
+    .buttons {
+      width: 100px !important;
+     align-items: flex-end !important;
+    }
+  }
+
+    section.confidence {
+      padding: 40px 30px !important;
+    }
+    
+    .mobile_menu_list {
+      width: 95% !important;
+      .categories_list,
+      .category_list {
+        span {
+          font-size: 17px !important;
+        }
+      }
+    }
+    footer {
+      .footer_sup {
+        flex-direction: column;
+        .footer_sup_right {
+          margin-top: 20px;
+          .line {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 368px) {
+  body {
+    .container {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    header {
+      .nav_sup,
+      .menu_list,
+      .all_categories,
+      .hat,
+      .search_box,
+      .desktop_logo {
+        display: none !important;
+      }
+      .hat_logo img {
+        width: 150px !important;
+      }
+      .search {
+        width: 340px !important;
+      }
+      .nav_slider {
+        width: 100% !important;
+        height: 300px !important;
+      }
+    }
+    
+    .hat_sub,
+    .nav_sub,
+    .section.brends,
+    .trend_products,
+    .brends,
+    .reklama,
+    .news_products,
+    .confidence{
+      padding: 15px 10px !important;
+    }
+    .trend_products {
+      padding: 5px !important;
+      margin-top: 20px !important;
+      .trend_corusel {
+        margin-top: 20px !important;
+      }
+    }
+    .carousel_item {
+      // margin-top: -50px !important;
+      margin-bottom: 50px;
+    }
+    .corusel_title {
+      margin: 0 !important;
+      strong {
+        font-size: 18px !important;
+      }
+     .all {
+      display: none !important;
+    } 
+    .buttons {
+      width: 100px !important;
+     align-items: flex-end !important;
+    }
+  }
+
+  .reklama {
+   display: none;
+  }
+  .new_products_corusel {
+    margin-top: 20px;
+  }
+    .confidence {
+      .confidence_list2 {
+        margin-top: -25px !important;
+      }
+      .confidence_item {
+        align-items: center !important;
+        align-content: center !important;
+        flex-wrap: wrap !important;
+        .confidence_list {
+          width: 150px !important;
+          height: auto !important;
+          margin-bottom: 15px;
+          
+    strong {
+      padding-top: 15px;
+      font-size: 13px !important;
+    }
+    p {
+      padding-top: 15px;
+      font-size: 12px !important;
+    }
+        }
+      }
+    }
+    .card_items {
+      .card_list {
+        width: 170px !important;
+        .card_img {
+          img {
+            width: 80% !important;
+          }
+          .muzImg {
+            width: 40% !important;
+          }
+        }
+      }
+    }
+    .added {
+      i {
+        font-size: 25px !important;
+      }
+      span {
+        width: 50px !important;
+        height: 25px !important;
+      }
+    }
+    .brends_list {
+      .brend {
+        img {
+          width: 80% !important;
+        }
+      }
+    .brend:not(:last-child) {
+      margin-right: 5px !important;
+    }
+    }
+    footer {
+      .footer_sup {
+        flex-direction: column;
+        .footer_sup_left {
+          flex-direction: column;
+          align-items: start !important;
+        }
+        .footer_sup_left_list:not(:last-child) {
+          margin-bottom: 10px !important;
+        }
+        .footer_sup_right {
+          flex-direction: column;
+          margin-top: 30px !important;
+          .icons {
+            margin-top: 15px;
+          }
+          .line {
+            display: none;
+          }
+        }
+      }
+      .footer_sub {
+        p {
+          padding-top: 15px;
+          font-size: 13px !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    .confidence {
+      .confidence_item {
+        .confidence_list {
+          width: 130px !important;
+        }
+      }
+    }
+    .card_items {
+      .card_list {
+        width: 150px !important;
+      }
+    }
+  }
+}
